@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LÃI SUẤT NGÂN HÀNG</title>
+</head>
+<body>
+    <script>
+        let tienVay=parseFloat(prompt("Nhập số tiền vay triệu đồng"));
+        let laiSuat=parseFloat(prompt("Lãi suất"));
+        let soNam=prompt("Số năm");
+        let tienLai1nam=tienVay * laiSuat/100;
+        let tongTienphaitra=soNam*tienLai1nam+tienVay;
+        alert("Số tiền phải trả là: "+tongTienphaitra);
+    </script>
+</body>
+</html>
